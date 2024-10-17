@@ -6,7 +6,7 @@
 /*   By: hzakharc < hzakharc@student.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/23 10:21:54 by gwagner           #+#    #+#             */
-/*   Updated: 2024/10/10 16:00:22 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/10/17 10:54:29 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,4 +72,3 @@ typedef struct s_data
 }	t_data;
 
 #endif
-//i will go insane soon

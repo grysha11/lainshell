@@ -6,7 +6,7 @@
 /*   By: hzakharc < hzakharc@student.42wolfsburg    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/14 22:48:01 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/10/10 16:20:18 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/10/17 10:54:18 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ static int	cd_checker(t_data **data, t_cmd *cmd)
 {
 	if (check_env_cd(&(*data)->env) == FALSE)
 	{
-		put_error((char *[]){"why u unseted pwd or oldpwd fuck you\n", NULL});
+		put_error((char *[]){"ERROR: PWD or OLDPWD is not found\n", NULL});
 		return (1);
 	}
 	if (matrix_size(cmd->argv) >= 3)
